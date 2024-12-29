@@ -1,7 +1,7 @@
 import requests, re, random, time, os, json
 from bs4 import BeautifulSoup
 
-server_host = 'http://localhost:8000'
+server_host = 'http://16.170.231.251:7998'
 acceptance_path = '/AlertTentant/'
 
 def manage_data(url):

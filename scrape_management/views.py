@@ -29,8 +29,8 @@ def craftMessageHeader(data, chat_id, special=False):
 
 def sendTenant(data_tobe_sent, doAfter=None):
     import requests
-    bot_token = '7370703241:AAEjQOXbSlRW4m5Pm1OXKHf18x35ejuLc78'
-    chat_id = "6375161482"
+    bot_token = ''
+    chat_id = ""
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     something_afterwards = callable(doAfter)
     true_announcement = 'https://olx.uz/d/obyavlenie/' in data_tobe_sent
